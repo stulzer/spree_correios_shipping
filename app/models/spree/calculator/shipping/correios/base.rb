@@ -36,7 +36,7 @@ module Spree
           return nil unless rate
           return nil if rate.to_f == 0.0
 
-          return rate
+          return rate + 4
         end
 
         def timing_info(package)
